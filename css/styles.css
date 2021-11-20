@@ -1,6 +1,8 @@
-HTML{
-    background-color: rgba(45, 46, 46, 0.767);
+html, body{
+    background-color: #FFFFFF;
+    font-family: Calibri, Tahoma, Geneva, Verdana, sans-serif;
 }
+
 header{
     background-color: aqua;
     position: absolute;
@@ -9,75 +11,79 @@ header{
     left: 0px;
     top: 0px;
 }
+
 .JK{
     position: absolute;
     width: 556px;
     height: 109px;
     left: 682px;
     top: 296px;
-    
-    font-family: Playfair Display;
+    font-family: Calibri;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 64px;
     text-align: center;
     color: #D4C17F;
-    }
+}
+
 header.inner{
     width: 1080px;
     margin: 0 auto;
     position: relative;
     height: 400px;
 }
+
 .nav{
     position: absolute;
     top: 20px;
-    right:120px;
+    right: 120px;
 }
-.nav_list{
+
+.nav-list{
     list-style-type: none; 
 }
-.nav_list li{
-    float:left;
+
+.nav-list li{
+    float: left;
     margin: 0 35px 0 0;
 }
-.nav_list li :last-child{
+
+.nav_list li:last-child{
     margin-right: 0;
 }
+
 .navigation{
     position: relative;
     width: 800px;
     height: 50px;
     left: 692px;
     top: 745px;
-    display:flex;
-
+    display: flex;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-
     color: #FFFFFF;
 }
+
 .number{
     position: absolute;
     width: 139px;
     height: 21px;
     left: 1046px;
     top: 745px;
-
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-
     color: #FFFFFF;
 }
+
 .about_us{
     background-color: blueviolet;
     position: absolute;
@@ -86,74 +92,67 @@ header.inner{
     left: 563px;
     top: 960px;
 }
+
 .historical_parks{
     display: flex;
     width: 193px;
     height: 47px;
     left: 563px;
     top: 1093px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
-    
     text-align: center;
-    
     color: #FFFFFF;
     margin: 0px;
     padding: 0px;
 }
+
 .equipment{
     display: flex;
     width: 133px;
     height: 47px;
     left: 826px;
     top: 1093px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
-
     text-align: center;
-
     color: #FFFFFF;
 }
+
 .fountains{
     width: 134px;
     height: 47px;
     left: 1029px;
     top: 1093px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
-
     text-align: center;
-
     color: #FFFFFF;
 }
+
 .bike_paths{
     width: 124px;
     height: 47px;
     left: 1233px;
     top: 1093px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
-
     text-align: center;
-
     color: #FFFFFF;
 }
+
 .appartments{
     background-color: cadetblue;
     position: absolute;
@@ -162,54 +161,55 @@ header.inner{
     left: 392px;
     top: 1260px;
 }
+
 .appartments_header{
     width: 292px;
     height: 36px;
     left: 392px;
     top: 1260px;
-
-    font-family: Playfair Display;
+    font-family: Calibri;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
 }
+
 .feedback{
     background-color: chartreuse;
     position: absolute;
     width: 1920px;
     height: 560px;
-    left:   0px;
+    left: 0px;
     top: 2066px;   
 }
+
 .feedback_header{
     width: 380px;
     height: 36px;
     left: 399px;
     top: 2246px;
-
-    font-family: Playfair Display;
+    font-family: Calibri;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
 }
+
 .lorem_ipsum{
     width: 535px;
     height: 114px;
     left: 405px;
     top: 2332px;
-    
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    
     color: #FFFFFF;   
 }
+
 .video{
     background-color: darkblue;
     position: absolute;
@@ -218,6 +218,7 @@ header.inner{
     left: 595px;
     top: 2626px;
 }
+
 .maps{
     background-color: darkorchid;
     position: absolute;
@@ -226,19 +227,20 @@ header.inner{
     left: 405px;
     top: 3456px;
 }
+
 .maps_header{
     width: 292px;
     height: 36px;
     left: 405px;
     top: 3456px;
-
-    font-family: Playfair Display;
+    font-family: Calibri;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
 }
+
 .info_form{
     background-color: darkslateblue;
     position: absolute;
@@ -247,35 +249,34 @@ header.inner{
     left: 400px;
     top: 4130px;
 }
+
 .info_form_header{
     width: 292px;
     height: 36px;
     left: 405px;
     top: 4130px;
-
-    font-family: Playfair Display;
+    font-family: Calibri;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
 }
+
 .contact_data{
     width: 255px;
     height: 28px;
     left: 400px;
     top: 4227px;
-
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 16px;
-
     text-align: center;
-
     color: #E7E7E7;
 }
+
 footer{
     background-color: dimgray;
     position: absolute;
@@ -284,6 +285,7 @@ footer{
     left: 0px;
     top: 4446px;
 }
+
 .text1{
     position: absolute;
     width: 92px;
